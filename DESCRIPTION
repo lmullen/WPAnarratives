@@ -1,0 +1,19 @@
+Package: WPAnarratives
+Type: Package
+Title: The texts of the WPA former slave narratives
+Version: 0.0.0.9000
+Description: During the 1930s, the Works Progress Administration conducted over
+    two thousand interviews with former slaves, published as "Slave Narratives:
+    A Folk History of Slavery in the United States from Interviews with Former
+    Slaves." Many of those texts, along with relevant metadata, are available in
+    this package.
+License: MIT + file LICENSE
+LazyData: yes
+Authors@R: c(person("Lincoln", "Mullen", role = c("aut", "cre"),
+        email = "lincoln@lincolnmullen.com"),
+        person("Edward", "Baptist", role = c("ctb")))
+VignetteBuilder: knitr
+URL: https://github.com/lmullen/WPAnarratives
+BugReports: https://github.com/lmullen/WPAnarratives/issues
+RoxygenNote: 5.0.1
+Depends: R (>= 3.1.0)
