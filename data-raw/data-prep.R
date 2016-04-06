@@ -13,7 +13,7 @@ wpa_narratives <- left_join(people, texts_df, by = "file") %>%
   mutate(year = as.integer(str_extract(interview_date, "\\d{4}"))) %>%
   select(name_last, name_first, interviewer_name_last, interviewer_name_first,
          interview_year = year, interview_date, interview_address, interview_city = city,
-         interview_state = state, age, text)
+         interview_state = state, age, text, filename = file)
 
 # Note that there are people listed who don't have narratives for some reason
 wpa_narratives <- wpa_narratives %>%
@@ -23,4 +23,4 @@ wpa_narratives <- wpa_narratives %>%
 # Bad filename matches
 #anti_join(texts_df, people) %>% View
 
-devtools::use_data(wpa_narratives, compress = "xz")
+devtools::use_data(wpa_narratives, compress = "xz", overwrite = TRUE)
