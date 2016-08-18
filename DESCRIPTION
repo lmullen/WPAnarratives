@@ -11,7 +11,8 @@ License: MIT + file LICENSE
 LazyData: yes
 Authors@R: c(person("Lincoln", "Mullen", role = c("aut", "cre"),
         email = "lincoln@lincolnmullen.com"),
-        person("Edward", "Baptist", role = c("ctb")))
+        person("Edward", "Baptist", role = "dtc"),
+        person("Library of Congress, American Memory", role = c("dtc")))
 VignetteBuilder: knitr
 URL: https://github.com/lmullen/WPAnarratives
 BugReports: https://github.com/lmullen/WPAnarratives/issues
