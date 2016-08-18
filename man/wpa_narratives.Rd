@@ -4,7 +4,7 @@
 \name{wpa_narratives}
 \alias{wpa_narratives}
 \title{WPA former slave narratives}
-\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 2259 rows and 11 columns.}
+\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 2259 rows and 12 columns.}
 \usage{
 wpa_narratives
 }
